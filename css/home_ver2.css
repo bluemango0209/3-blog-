@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.flexBox {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.nav {
+display: block;
+}
+
+.bg-img {
+  height: 800px;
+  overflow: hidden;
+  border: 1px solid black;
+  position: relative;
+}
+.bg_text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+
+}
+
+.footer {
+  margin: 50px;
+}
+.content {
+
+  margin: 50px;
+
+
+}
